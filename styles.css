@@ -45,9 +45,12 @@ h6 {
 
 /*My CSS*/
 
+:root {
+  --general-margin-left: 3vw;
+}
+
 #main {
   display: flex;
-  flex-direction: column;
 }
 
 #photo {
@@ -71,4 +74,11 @@ h6 {
   bottom: 0;
   width: 33vw;
   text-align: center;
+}
+
+#dummy-text {
+  margin: 20vh var(--general-margin-left);
+  width: 50vw;
+  font-size: 3.5vh;
+  background-color: blue;
 }
