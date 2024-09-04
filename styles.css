@@ -51,6 +51,7 @@ h6 {
 
 #main {
   display: flex;
+  background-color: rgb(245, 245, 245);
 }
 
 #photo {
@@ -76,9 +77,17 @@ h6 {
   text-align: center;
 }
 
-#dummy-text {
-  margin: 20vh var(--general-margin-left);
+.dummy-text {
+  margin: 0 var(--general-margin-left) 0 5vw;
   width: 50vw;
-  font-size: 3.5vh;
+  font-size: 3vh;
   background-color: blue;
+}
+
+#dummy-top {
+  margin-top: 15vh;
+}
+
+#dummy-bottom {
+  margin-top: 3vh ;
 }
