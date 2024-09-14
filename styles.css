@@ -91,3 +91,8 @@ h6 {
 #dummy-bottom {
   margin-top: 3vh ;
 }
+
+.form-element {
+  margin: 5px;
+  background-color: red;
+}
