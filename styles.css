@@ -48,11 +48,13 @@ h6 {
 :root {
   --general-margin-left: 3vw;
   --general-font-size: 3vh;
+  margin: 0;
 }
 
 #main {
   display: flex;
   background-color: rgb(245, 245, 245);
+  margin-right: 0;
 }
 
 #photo {
@@ -79,15 +81,15 @@ h6 {
   font-size: var(--general-font-size);
 }
 
+#form {
+  margin: 15vh 0;
+}
+
 .dummy-text {
   margin: 0 var(--general-margin-left);
   width: 50vw;
   font-size: var(--general-font-size);
   background-color: blue;
-}
-
-#dummy-top {
-  margin-top: 15vh;
 }
 
 #dummy-bottom {
