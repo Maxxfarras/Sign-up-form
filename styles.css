@@ -53,11 +53,12 @@ h6 {
   --general-font-size: 2.8vh;
   --two-thirds:calc(100vw * 2 / 3);
   --one-third:calc(100vw / 3);
+  --color-white:rgb(236, 236, 236);
 }
 
 #main {
   display: flex;
-  background-color: rgb(37, 182, 49);
+  background-color: rgb(6, 41, 66);
   font-family: K2D, Arial, Helvetica, sans-serif;
   font-size: var(--general-font-size);
 }
@@ -72,7 +73,7 @@ h6 {
 #logo {
   font-size: 6vh;
   background-color: red;
-  margin-top: 20vh;
+  margin-top: 17vh;
   text-align: center;
 }
 
@@ -94,7 +95,7 @@ h6 {
 .dummy-text {
   margin-left: var(--general-margin-left);
   width: 50vw;
-  background-color: blue;
+  color: var(--color-white);
 }
 
 #dummy-bottom {
@@ -104,7 +105,7 @@ h6 {
 #form-card {
   width: var(--two-thirds);
   margin: 5vh 0;
-  background-color: rgb(182, 182, 182);
+  background-color: var(--color-white);
   padding: 3vh 0;
 }
 
@@ -122,13 +123,23 @@ h6 {
 
 .form-element {
   margin-left: var(--general-margin-left);
-  background-color: red;
+}
+
+.invalid-message {
+  display: none;
 }
 
 button {
   margin: 0 var(--general-margin-left);
+  padding: 2vh 5vh;
+  border-radius: 10px;
 }
 
 span {
   margin: 3vh var(--general-margin-left);
+  color: var(--color-white);
+}
+
+a {
+  color: var(--color-white);
 }
