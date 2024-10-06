@@ -47,6 +47,7 @@ h6 {
 
 :root {
   --general-margin-left: 3vw;
+  --general-font-size: 3vh;
 }
 
 #main {
@@ -75,12 +76,13 @@ h6 {
   bottom: 0;
   width: 33vw;
   text-align: center;
+  font-size: var(--general-font-size);
 }
 
 .dummy-text {
-  margin: 0 var(--general-margin-left) 0 5vw;
+  margin: 0 var(--general-margin-left);
   width: 50vw;
-  font-size: 3vh;
+  font-size: var(--general-font-size);
   background-color: blue;
 }
 
@@ -92,7 +94,14 @@ h6 {
   margin-top: 3vh ;
 }
 
+#form-card {
+  margin: 0 var(--general-margin-left);
+  background-color: rgb(182, 182, 182);
+  margin-top: 5vh;
+}
+
 .form-element {
   margin: 5px;
   background-color: red;
+  font-size: var(--general-font-size);
 }
