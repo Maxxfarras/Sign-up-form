@@ -72,13 +72,16 @@ h6 {
 
 #logo {
   font-size: 6vh;
-  background-color: red;
+  color: var(--color-white);
+  background-color: rgba(6, 41, 66, 0.815);
   margin-top: 17vh;
   text-align: center;
 }
 
 #photo-footer {
-  background-color: violet;
+  background-color: rgba(6, 41, 66, 0.432);
+  color: var(--color-white);
+  font-size: 2vh;
   position: absolute;
   bottom: 0;
   width: var(--one-third);
@@ -133,6 +136,7 @@ button {
   margin: 0 var(--general-margin-left);
   padding: 2vh 5vh;
   border-radius: 10px;
+  border: 0;
 }
 
 span {
