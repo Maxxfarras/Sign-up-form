@@ -50,26 +50,29 @@ h6 {
 
 :root {
   --general-margin-left: 3vw;
-  --general-font-size: 3vh;
+  --general-font-size: 2.8vh;
+  --two-thirds:calc(100vw * 2 / 3);
+  --one-third:calc(100vw / 3);
 }
 
 #main {
   display: flex;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(37, 182, 49);
+  font-family: K2D, Arial, Helvetica, sans-serif;
+  font-size: var(--general-font-size);
 }
 
 #photo {
-  width: 33vw;
+  width: var(--one-third);
   height: 100vh;
   background-image: url(./img/porsche.jpg);
   background-size: cover;
 }
 
 #logo {
-  font-family: K2D;
-  font-size: 5vh;
+  font-size: 6vh;
   background-color: red;
-  margin-top: 33vh;
+  margin-top: 20vh;
   text-align: center;
 }
 
@@ -77,22 +80,20 @@ h6 {
   background-color: violet;
   position: absolute;
   bottom: 0;
-  width: 33vw;
+  width: var(--one-third);
   text-align: center;
-  font-size: var(--general-font-size);
 }
 
 #form {
   height: 100%;
-  width: 66%;
-  margin: 8vh 0;
+  width: var(--two-thirds);
+  margin: auto;
+  align-items: center;
 }
 
 .dummy-text {
-  margin: 0 var(--general-margin-left);
+  margin-left: var(--general-margin-left);
   width: 50vw;
-  font-size: var(--general-font-size);
-  font-family: K2D;
   background-color: blue;
 }
 
@@ -101,9 +102,10 @@ h6 {
 }
 
 #form-card {
-  margin: 0 var(--general-margin-left);
+  width: var(--two-thirds);
+  margin: 5vh 0;
   background-color: rgb(182, 182, 182);
-  margin-top: 5vh;
+  padding: 3vh 0;
 }
 
 #form-container {
@@ -114,20 +116,19 @@ h6 {
 }
 
 #form-title {
-  font-size: var(--general-font-size);
-  font-family: K2D;
+  margin-left: var(--general-margin-left);
   margin-bottom: 3vh;
 }
 
 .form-element {
+  margin-left: var(--general-margin-left);
   background-color: red;
-  font-size: var(--general-font-size);
 }
 
 button {
-  margin: 3vh var(--general-margin-left);
+  margin: 0 var(--general-margin-left);
 }
 
 span {
-  margin: 0 var(--general-margin-left);
+  margin: 3vh var(--general-margin-left);
 }
