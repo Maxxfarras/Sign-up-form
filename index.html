@@ -21,11 +21,13 @@
           Photo by
           <a
             href="https://unsplash.com/es/@s_midili?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            target="_blank" rel="noopener no referrer"
             >serjan midili</a
           >
           on
           <a
             href="https://unsplash.com/es/fotos/porsche-911-rojo-y-blanco-en-carretera-durante-el-dia-iUy7WArbyI8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            target="_blank" rel="noopener no referrer"
             >Unsplash</a
           >
         </footer>
@@ -43,12 +45,13 @@
           <div id="form-title">Please fill this form:</div>
           <form action="#" method="get" id="form-container">
             <div class="form-element">
-              <label for="first-name" class="form-label">First Name</label
+              <label for="first-name" class="form-label">First Name*</label
               ><input
                 type="text"
                 class="form-input"
                 name="first-name"
                 id="first-name"
+                required
               />
             </div>
             <div class="form-element">
@@ -61,8 +64,8 @@
               />
             </div>
             <div class="form-element">
-              <label for="email" class="form-label">Email</label
-              ><input type="text" class="form-input" name="email" id="email" />
+              <label for="email" class="form-label">Email*</label
+              ><input type="text" class="form-input" name="email" id="email" placeholder="myemail@email.com" required/>
               <div class="invalid-message"></div>
             </div>
             <div class="form-element">
@@ -75,29 +78,31 @@
               />
             </div>
             <div class="form-element">
-              <label for="password" class="form-label">Password</label
+              <label for="password" class="form-label">Password*</label
               ><input
-                type="text"
+                type="password"
                 class="form-input"
                 name="password"
                 id="password"
+                required
               />
               <div class="invalid-message">Passwords don´t match</div>
             </div>
             <div class="form-element">
               <label for="confirm-password" class="form-label"
-                >Confirm Password</label
+                >Confirm Password*</label
               ><input
-                type="text"
+                type="password"
                 class="form-input"
                 name="confirm-password"
                 id="confirm-password"
+                required
               />
               <div class="invalid-message">Passwords don´t match</div>
             </div>
+            <button type="submit">Create Account</button>
           </form>
         </div>
-          <button type="submit">Create Account</button>
           <span>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener no referrer">Log in</a></span>
       </div>
     </div>

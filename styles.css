@@ -128,15 +128,24 @@ h6 {
   margin-left: var(--general-margin-left);
 }
 
+input[type="text"], [type="password"] {
+  border-color: var(--color-white);
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
 .invalid-message {
   display: none;
 }
 
 button {
-  margin: 0 var(--general-margin-left);
+  margin-top: 3vh;
+  margin-left: var(--general-margin-left);
   padding: 2vh 5vh;
   border-radius: 10px;
   border: 0;
+  background-color: rgb(6, 41, 66);
+  color: var(--color-white);
 }
 
 span {
